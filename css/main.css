@@ -321,6 +321,7 @@ footer a {
 
 .banner-treasury {
 	background-image: url("img/spawn.jpg");
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 50%;
