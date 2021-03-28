@@ -319,6 +319,13 @@ footer a {
 	visibility: hidden;
 }
 
+.banner-treasury {
+	background-image: url("img/spawn.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 50%;
+}
+
 .treasury-header-cust {
 	margin-top: 20px;
 	border-bottom: solid 3px #aa1817;
@@ -411,4 +418,3 @@ footer a {
 #block-cust {
 	text-align: center;
 }
-
