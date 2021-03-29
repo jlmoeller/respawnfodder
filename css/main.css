@@ -2,7 +2,6 @@ body, html {
 	height: 100%;
 	margin: 0;
 	min-width: 400px;
-	background-color: white;
 }
 
 .container-test {
@@ -419,4 +418,16 @@ footer a {
 
 #block-cust {
 	text-align: center;
+}
+
+/* END OF TREASURY.HTML CSS */
+
+/* START OF TRADING.HTML CSS */
+
+.banner-trading {
+	background-image: url("img/tp.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 50%;
 }
