@@ -6,8 +6,8 @@
 */
 
 var url = "https://api.guildwars2.com/v2/guild/40657878-425C-EB11-81B2-A840610878B3/treasury?access_token=64E38AA1-ECFE-5E4D-A340-4D7FE0139E5059238F8E-B417-401E-B476-CE29C4311664&v=latest";
-var url_2 = "https://gwmoeller.github.io/probotafessor/json/item_list.json"
-var url_3 = "https://gwmoeller.github.io/probotafessor/json/guild_upgrades_update.json";
+var url_2 = "https://gwmoeller.github.io/json/item_list.json"
+var url_3 = "https://gwmoeller.github.io/json/guild_upgrades_update.json";
 var url_4 = "https://api.guildwars2.com/v2/guild/40657878-425C-EB11-81B2-A840610878B3?access_token=64E38AA1-ECFE-5E4D-A340-4D7FE0139E5059238F8E-B417-401E-B476-CE29C4311664&v=latest"
 var url_5 = "https://api.guildwars2.com/v2/guild/40657878-425C-EB11-81B2-A840610878B3/upgrades?access_token=64E38AA1-ECFE-5E4D-A340-4D7FE0139E5059238F8E-B417-401E-B476-CE29C4311664&v=latest"
 
@@ -53,12 +53,12 @@ function start() {
 				var check = true;
 
 				if(element.costs[0] != undefined && data5[0].includes(element.id) == false && element.costs[0] != 0 && element.build_time == 0 && element.required_level <= guildLvl) {
-					
+				
 					if(element.costs[0].name == "Guild Favor") {
 						
 						for(var i = 0; i < element.prerequisites.length; i++) {
 							
-							if(data5[0].includes(element.prerequisites[i]) && element.prerequisites[0] != 240) {
+							if(data5[0].includes(element.prerequisites[i])) {
 							}
 							else {
 								check = false;
@@ -342,8 +342,6 @@ function filteredView(results, input) {
 		tempUpgradeList.push(element[1]);
 	})
 
-	console.log(tempUpgradeList)
-
 	if(results.length == 0 && input == "") {
 		for(var i=0; i < tempUpgradeList.length; i++) {
 			var r = document.getElementById(tempUpgradeList[i]);
@@ -369,8 +367,6 @@ function filteredView(results, input) {
 			}
 			else {
 				var r = document.getElementById(tempUpgradeList[i]);
-				console.log(r);
-
 				$(r).show();
 			}
 		}
