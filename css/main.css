@@ -320,8 +320,8 @@ footer a {
 }
 
 .banner-treasury {
-	background-image: url("img/guild.jpg");
-	background-position: center;
+	background-image: url("img/wh-banner.jpg");
+	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 50%;
@@ -430,4 +430,41 @@ footer a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 50%;
+}
+
+/* END OF TRADING.HTML CSS */
+
+/* START OF ABOUT.HTML CSS */
+
+.about-header-cust { 
+	margin: 20px;  
+	padding-bottom: 3px;
+	text-align: center;
+}
+
+.banner-about {
+	background-image: url("img/sun.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 50%;
+}
+
+.container-statement-about {
+	float: center;
+	padding-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.container-about-cust {
+	min-height: 100px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.img1 {
+	background-image: url("img/sun.jpg");
+	height: 100px;
+	width: 100%;
 }
