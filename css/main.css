@@ -436,31 +436,43 @@ footer a {
 
 /* START OF ABOUT.HTML CSS */
 
-.about-header-cust { 
-	margin: 20px;  
+.about-lower-cust {
+	margin: 20px;
 	padding-bottom: 3px;
 	text-align: center;
 }
 
 .banner-about {
-	background-image: url("img/sun.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 50%;
+  background-image: url("img/sun.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
+
+.about-header-cust {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: 0;
+  width: 100%;
+  color: white;
+}
+
+.about-header-cust h1 {
+	font-size: 200px;
+}
+
 
 .container-statement-about {
 	float: center;
-	padding-top: 10%;
+	padding-top: 125px;
 	margin-left: 10%;
 	margin-right: 10%;
-}
-
-.container-about-cust {
-	min-height: 100px;
-	padding: 10px;
-	overflow: hidden;
 }
 
 .img1 {
