@@ -490,3 +490,17 @@ footer a {
 .p1 { 
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.img2 {
+	background-image: url("img/guild.jpg");
+	height: 100px;
+	width: 100%;
+	background-position: center;
+}
+
+.img3 {
+	background-image: url("img/wh-banner.jpg");
+	height: 100px;
+	width: 100%;
+	background-position: center;
+}
