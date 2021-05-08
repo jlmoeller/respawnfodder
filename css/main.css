@@ -432,7 +432,21 @@ footer a {
 	min-height: 50%;
 }
 
+.wiki-logo {
+	background-image: url("img/logo.jpg");
+}
+
 /* END OF TRADING.HTML CSS */
+
+.banner-trading {
+	background-image: url("img/post.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
 
 /* START OF ABOUT.HTML CSS */
 
@@ -443,7 +457,7 @@ footer a {
 }
 
 .banner-about {
-  background-image: url("img/sun.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("img/sun.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -474,12 +488,6 @@ footer a {
 	margin-right: 10%;
 }
 
-.img1 {
-	background-image: url("img/sun.jpg");
-	height: 100px;
-	width: 100%;
-}
-
 .horizontal-space {
 	width: 100%;
 	height: 8%;
@@ -492,14 +500,14 @@ footer a {
 }
 
 .img2 {
-	background-image: url("img/guild.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("img/guild.jpg");
 	height: 100px;
 	width: 100%;
 	background-position: center;
 }
 
 .img3 {
-	background-image: url("img/wh-banner.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("img/wh-banner.jpg");
 	height: 100px;
 	width: 100%;
 	background-position: center;
