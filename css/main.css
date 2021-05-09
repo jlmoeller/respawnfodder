@@ -450,6 +450,72 @@ footer a {
 
 /* START OF ABOUT.HTML CSS */
 
+.about-container-br {
+	display: block;
+	margin: 100px 0;
+}
+.contain-cust {
+	position: center;
+	align-content: center;
+	border: solid black 3px;
+	border-radius: 25px;
+	height: 200px;
+	width: 800px;
+	display: block;
+	position: relative;
+}
+
+.leader-grid {
+	display: grid;
+	grid-template-columns: 100px 175px 100px 175px;
+	text-align: center;
+	grid-gap: 50px;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%,-50%);
+}
+
+.leader-pic {
+	width: 100px;
+	height: 100px;
+	border: solid black 2px;
+	border-radius: 10px;
+}
+
+.leader-text {
+	text-align: center;
+	width: 175px;
+	height:100px;
+	line-height: 2px;
+}
+
+.leader-text2 {
+	text-align: center;
+	width: 130px;
+	height: 100px;
+	line-height: 2px;
+}
+
+.leader-br {
+	display: block;
+	margin: 15px 0;
+}
+
+.leader1 {
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("img/leader1.jpg");
+	background-position: center;
+}
+
+.leader2 {
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("img/leader2.jpg");
+	background-position: center;
+}
+
 .about-lower-cust {
 	margin: 20px;
 	padding-bottom: 3px;
@@ -498,6 +564,7 @@ footer a {
 .p1 { 
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .img2 {
 	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("img/guild.jpg");
